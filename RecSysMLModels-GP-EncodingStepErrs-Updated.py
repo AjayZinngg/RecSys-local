@@ -18,7 +18,7 @@ train_data = dd.read_csv('train_set.csv')
 test_data = dd.read_csv('test_set.csv')
 
 # Sample a subset of the data (optional, adjust frac as needed)
-fraction_of_data_to_use = 0.005  # Adjust this value to suit your needs
+fraction_of_data_to_use = 0.01  # Adjust this value to suit your needs
 train_data = train_data.sample(frac=fraction_of_data_to_use)
 test_data = test_data.sample(frac=fraction_of_data_to_use)
 
